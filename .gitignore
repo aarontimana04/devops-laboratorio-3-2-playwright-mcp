@@ -1,0 +1,9 @@
+node_modules/
+.playwright-mcp/
+playwright-report/
+test-results/
+blob-report/
+.DS_Store
+
+# La salida final se versiona de forma selectiva; los temporales no.
+output/pdf/_rendered/

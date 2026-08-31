@@ -1,0 +1,14 @@
+{
+  "name": "devops-laboratorio-3-2-playwright-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Laboratorio de Playwright MCP y pruebas E2E de autenticación.",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0"
+  }
+}
